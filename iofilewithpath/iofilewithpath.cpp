@@ -28,4 +28,13 @@ int main() {
 		outfile << baris << endl;
 	}
 
-	
+	//selesai dalam menulis sekarang tutup file nya
+	outfile.close();
+
+	//membuka file dalam mode membaca 
+	ifstream infile;
+	//menunjuk ke sebuah file 
+	infile.open(namafile + ".txt", ios::out);
+
+	cout << endl << ">= membuka dan membaca file" << endl;
+
