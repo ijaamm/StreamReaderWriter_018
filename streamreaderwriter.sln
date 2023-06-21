@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "streamreaderwriter", "strea
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iofilewithpath", "iofilewithpath\iofilewithpath.vcxproj", "{A7F51727-CA74-435F-9640-0173D39F4B20}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "manualexeption", "manualexeption\manualexeption.vcxproj", "{1C2644B2-8BA4-4C73-8AC1-C3B73830264F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{A7F51727-CA74-435F-9640-0173D39F4B20}.Release|x64.Build.0 = Release|x64
 		{A7F51727-CA74-435F-9640-0173D39F4B20}.Release|x86.ActiveCfg = Release|Win32
 		{A7F51727-CA74-435F-9640-0173D39F4B20}.Release|x86.Build.0 = Release|Win32
+		{1C2644B2-8BA4-4C73-8AC1-C3B73830264F}.Debug|x64.ActiveCfg = Debug|x64
+		{1C2644B2-8BA4-4C73-8AC1-C3B73830264F}.Debug|x64.Build.0 = Debug|x64
+		{1C2644B2-8BA4-4C73-8AC1-C3B73830264F}.Debug|x86.ActiveCfg = Debug|Win32
+		{1C2644B2-8BA4-4C73-8AC1-C3B73830264F}.Debug|x86.Build.0 = Debug|Win32
+		{1C2644B2-8BA4-4C73-8AC1-C3B73830264F}.Release|x64.ActiveCfg = Release|x64
+		{1C2644B2-8BA4-4C73-8AC1-C3B73830264F}.Release|x64.Build.0 = Release|x64
+		{1C2644B2-8BA4-4C73-8AC1-C3B73830264F}.Release|x86.ActiveCfg = Release|Win32
+		{1C2644B2-8BA4-4C73-8AC1-C3B73830264F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
