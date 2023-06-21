@@ -8,7 +8,7 @@ int main() {
 	//membuka file dalam mode menulis.
 	ofstream outfile;
 	//menunjuk ke sebuah nama file
-	outfile.open("contohfile.text");
+	outfile.open("contohfile.txt");
 
 	cout << ">= menulis file, \'q\' untuk keluar" << endl;
 
@@ -29,7 +29,7 @@ int main() {
 	//membuka file dalam mode membaca 
 	ifstream infile;
 	//menunjuk ke sebuah file 
-	infile.open("contohfile.text");
+	infile.open("contohfile.txt");
 
 	cout << endl << ">= membuka dan membaca file" << endl;
 	
@@ -46,5 +46,7 @@ int main() {
 		//tutup file tersebut setelah selesai
 		infile.close();
 	}
-
+	//jika tidak ditemukan file maka akan menampilkan ini
+	else cout << "unable to open file";
+	return 0;
 }
